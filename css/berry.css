@@ -541,6 +541,15 @@ section::after {
   font-weight: 400;
   font-weight: 300;
 }
+<<<<<<< HEAD
+=======
+.tp-caption.large_white_light_2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    font-weight: 300;
+}
+>>>>>>> master
 .btn {
   -webkit-border-radius: 3em;
   -moz-border-radius: 3em;
@@ -627,6 +636,12 @@ form textarea.form-control {
   }
   .contact-details {
     margin-top: 20px;
+<<<<<<< HEAD
+=======
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+>>>>>>> master
   }
   header .navbar-default {
     padding: 20px;
@@ -754,6 +769,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
+<<<<<<< HEAD
   border-bottom: 3px solid #6b396c;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
@@ -781,6 +797,35 @@ section#about .about-item:hover i.fa {
 }
 section#about .about-item:hover h3 {
   color: # FB2F65;
+=======
+  border-bottom: 3px solid #FB2F65;
+}
+header .navbar-default.scrolled ul.navbar-nav li a {
+  color: #FB2F65;
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover {
+  color: #FB2F65;
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
+  background: #FB2F65;
+}
+header .navbar-default.scrolled .navbar-brand {
+  background: #FB2F65;
+}
+section .section-heading .divider:after {
+  background: #FB2F65;
+}
+section#about .about-item i.fa {
+  border: 2px solid #FB2F65;
+  color: #FB2F65;
+}
+section#about .about-item:hover i.fa {
+  color: #ffffff;
+  background: #FB2F65;
+}
+section#about .about-item:hover h3 {
+  color: #FB2F65;
+>>>>>>> master
 }
 section#features {
   background: #f6f6f6;
@@ -789,6 +834,7 @@ section#features header h1:after {
   background: # FB2F65;
 }
 section#features .media i.fa {
+<<<<<<< HEAD
   border: 2px solid # FB2F65;
   color: # FB2F65;
 }
@@ -805,6 +851,24 @@ section#features .media.active i.fa {
 }
 section#features .media.active .media-heading {
   color: # FB2F65;
+=======
+  border: 2px solid #FB2F65;
+  color: #FB2F65;
+}
+section#features .media:hover i.fa {
+  color: #ffffff;
+  background: #FB2F65;
+}
+section#features .media:hover h3 {
+  color: #FB2F65;
+}
+section#features .media.active i.fa {
+  color: #ffffff;
+  background: #FB2F65;
+}
+section#features .media.active .media-heading {
+  color: #FB2F65;
+>>>>>>> master
 }
 section#reviews {
   background: url("../img/berry/bk-berry.jpg");
@@ -842,6 +906,11 @@ section#screens header h1:after {
 }
 section#screens .slider div img {
   border: 2px solid #e5e5e5;
+<<<<<<< HEAD
+=======
+  width: 200px;
+  height: 355px;
+>>>>>>> master
 }
 section#screens .slider div h4 {
   color: #999999;
@@ -898,6 +967,7 @@ section#getApp .platforms .media:hover {
 }
 section#getApp .platforms .media:hover a i,
 section#getApp .platforms .media:hover a div.media-body {
+<<<<<<< HEAD
   color: # FB2F65;
 }
 /* support section */
@@ -917,6 +987,27 @@ section#support .media:hover i.fa {
 }
 section#support .media:hover h3 {
   color: # FB2F65;
+=======
+  color: #FB2F65;
+}
+/* support section */
+section#support header h1:after {
+  background: #FB2F65;
+}
+section#support .media i.fa {
+  border: 2px solid #FB2F65;
+  color: #FB2F65;
+}
+section#support .media a {
+  color: #FB2F65;
+}
+section#support .media:hover i.fa {
+  color: #ffffff;
+  background: #FB2F65;
+}
+section#support .media:hover h3 {
+  color: #FB2F65;
+>>>>>>> master
 }
 /* footer section */
 footer {
@@ -956,6 +1047,7 @@ footer .rights a {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .btn.btn-primary {
+<<<<<<< HEAD
   color: # FB2F65;
   border-color: # FB2F65;
 }
@@ -963,6 +1055,15 @@ footer .rights a {
   color: #ffffff;
   background: # FB2F65;
   border-color: # FB2F65;
+=======
+  color: #FB2F65;
+  border-color: #FB2F65;
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background: #FB2F65;
+  border-color: #FB2F65;
+>>>>>>> master
 }
 .btn.btn-primary.inverse {
   color: #ffffff;
@@ -970,8 +1071,13 @@ footer .rights a {
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
+<<<<<<< HEAD
   background: # FB2F65;
   border-color: # FB2F65;
+=======
+  background: #FB2F65;
+  border-color: #FB2F65;
+>>>>>>> master
 }
 .btn.btn-default {
   background: #ffffff;
@@ -1015,6 +1121,7 @@ form .form-control:focus {
     display: none;
   }
   header .navbar-default ul.navbar-nav li a:hover {
+<<<<<<< HEAD
     color: # FB2F65;
   }
   header .navbar-default .navbar-collapse {
@@ -1022,12 +1129,25 @@ form .form-control:focus {
   }
   header .navbar-default.scrolled {
     background: #6b396c;
+=======
+    color: #FB2F65;
+  }
+  header .navbar-default .navbar-collapse {
+    background: #FB2F65;
+  }
+  header .navbar-default.scrolled {
+    background: #FB2F65;
+>>>>>>> master
   }
   header .navbar-default.scrolled ul.navbar-nav li a {
     color: #ffffff;
   }
   header .navbar-default.scrolled ul.navbar-nav li a:hover {
+<<<<<<< HEAD
     color: # FB2F65;
+=======
+    color: #FB2F65;
+>>>>>>> master
   }
 }
 
@@ -1091,5 +1211,9 @@ form .form-control:focus {
   }
 }
 .pre-loader {
+<<<<<<< HEAD
   background: #F012BE;
+=======
+  background: #FB2F65;
+>>>>>>> master
 }
